@@ -57,3 +57,47 @@
 ```
 
 ![img](img/description_list.png)
+
+### 4. Membuat Tabel
+```html
+<header>
+        <h1>Membuat Table</h1>
+    </header>
+    <table border="2" cellpadding="5" cellspacing="1">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Kelas</th>
+                <th>Kursus Bahasa</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alingga Reandito</td>
+                <td>Ti.20.A2</td>
+                <td>Bahasa Jepang</td>
+            </tr>
+            <tr>
+                <td>Herliyansyah</td>
+                <td>Ti.20.A2</td>
+                <td>Bahasa Inggris</td>
+            </tr>
+            <tr>
+                <td>M.Satria Permana</td>
+                <td>Ti.20.A2</td>
+                <td>Bahasa Jawa</td>
+            </tr>
+        </tbody>
+    </table>
+```
+
+![img](img/membuat_tabel.png)
+
+### 5. Mengatur Margin dan Padding
+```html
+<table border="1" cellpadding="4" cellspacing="0">
+```
+
+![img](img/margin_dan_padding.png)
+
+### 6. Menggabungkan Sel data
