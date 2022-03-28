@@ -159,4 +159,59 @@
 
 ### 8. Menambahkan Style Pada Form
 ```html
- 
+<style>
+    form p > label{
+        display: inline-block;
+        width: 100px;
+    }
+    form input[type="text"], form textarea{
+        border: 1px solid rgb(88, 88, 255);
+    }
+    form input[type="submit"]{
+        border: 1px solid rgb(88, 88, 255);
+        background-color: rgb(88, 88, 255);
+        color: #fff;
+        font-weight: bold;
+        padding: 5px 55px;
+    }
+</style>
+```
+
+![img](img/menambah_style.png)
+
+# Pertanyaan dan tugas
+### Buatlah form yang menampilkan ***dropdown*** menu dan ***listbox*** dengan multiple selection.
+
+## **Dropdown**
+```html
+<p>
+    <label for="#">Region</label>
+    <select name="Region" id="Region">
+        <option>Pilih Asal Negara</option>
+        <option value="Indonesia">Indonesia</option>
+        <option value="Malaysia">Malaysia</option>
+        <option value="Singapore">Singapore</option>          
+        <option value="Vietnam">Vietnam</option>        
+        <option value="Jepang">Jepang</option>
+    </select>
+</p>
+```
+
+![img](img/tugas_1.png)
+
+## **Listbox** dengan multiple
+```html
+<p>
+    <label for="#">Roll Player</label>
+    <select name="RP" id="RP" multiple size="5">- choose your role -/select>
+    <option value="marksman">Marksman</option>
+    <option value="fighter">Fighter</option>
+    <option value="tank">Tank</option>
+    <option value="mage">Mage</option>
+    <option value="support">Support</option>
+</p>
+```
+
+![img](img/tugas_2.png)
+
+
