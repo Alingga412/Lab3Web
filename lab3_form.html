@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+<body>
+    <header>
+        <h1>Membuat Form</h1>
+    </header>
+    <form action="proses.php" method="post">
+        <fieldset>
+            <legend>Data Pelanggan</legend>
+            <p>
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama">
+            </p>
+            <p>
+                <label for="alamat">Alamat</label>
+                <textarea name="alamat" id="alamat" cols="25" rows="5"></textarea>
+            </p>
+            <p>
+                <label for="#">Jenis Kelamin</label>
+                <input id="jk_1" type="radio" name="kelamin" value="L"><label for="jk_1">Laki-Laki</label>
+                <input id="jk_2" type="radio" name="kelamin" value="P"><label for="jk_2">Perempuan</label>
+            </p>
+            <p>
+                <input type="Submit" value="Login">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>

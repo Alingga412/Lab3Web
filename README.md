@@ -101,3 +101,62 @@
 ![img](img/margin_dan_padding.png)
 
 ### 6. Menggabungkan Sel data
+```html
+<table border="1" cellpadding="4" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Kelas</th>
+                <th>Kursus Bahasa</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alingga Reandito</td>
+                <td rowspan="3">Ti.20.A2</td>
+                <td>Bahasa Jepang</td>
+            </tr>
+            <tr>
+                <td>Herliyansyah</td>
+                <td>Bahasa Inggris</td>
+            </tr>
+            <tr>
+                <td>M.Satria Permana</td>
+                <td>Bahasa Jawa</td>
+            </tr>
+        </tbody>
+    </table>
+```
+
+![img](img/gabung_sel_data.png)
+
+### 7. Membuat Form
+```html
+<form action="proses.php" method="post">
+    <fieldset>
+        <legend>Data Pelanggan</legend>
+        <p>
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama">
+        </p>
+        <p>
+            <label for="alamat">Alamat</label>
+            <textarea name="alamat" id="alamat" cols="25" rows="5"></textarea>
+        </p>
+        <p>
+            <label for="#">Jenis Kelamin</label>
+            <input id="jk_1" type="radio" name="kelamin" value="L"><label for="jk_1">Laki-Laki</label>
+            <input id="jk_2" type="radio" name="kelamin" value="P"><label for="jk_2">Perempuan</label>
+        </p>
+        <p>
+            <input type="Submit" value="Login">
+        </p>
+    </fieldset>
+</form>
+```
+
+![img](img/membuat_form.png)
+
+### 8. Menambahkan Style Pada Form
+```html
+ 
